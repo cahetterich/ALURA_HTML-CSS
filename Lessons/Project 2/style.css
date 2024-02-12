@@ -1,27 +1,34 @@
 body { 
-    background-color: black;
+    background-color: #1B1617;
 }
 
 h1 {
-    color: white;
+    color: #AAAAAA;
+    font-weight: bold;
     /* Adicionar mais estilos conforme necessário */
 }
 p {
-    color: white;
+    color: #AAAAAA;
     /* Adicionar mais estilos conforme necessário */
 }
 
 strong {
-    color: #22D4FD;
+    color: #1A9782;
+}
+
+span {
+    color: #1A9782;
+    border: 1px solid #1A9782;   
+    padding: 2px; 
 }
 
 a {
-    background-color: ciano;
-    color: white;
+    background-color: #1A9782;
+    color: #F6F6F6;
     border: none;
     /* Adicionar mais estilos conforme necessário */
 }
 img {
-    /* Adicionar estilos para formatar a imagem */
+    width: 300px;
 }
 /* Adicionar mais estilos conforme necessário */
