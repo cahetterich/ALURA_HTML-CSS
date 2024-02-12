@@ -12,12 +12,12 @@ p {
     /* Adicionar mais estilos conforme necessário */
 }
 
-strong {
+.titulo-destaque {
     color: #1A9782;
 }
 
-span {
-    color: #1A9782;
+.especialidades {
+    color: white;
     border: 1px solid #1A9782;   
     padding: 2px; 
 }
