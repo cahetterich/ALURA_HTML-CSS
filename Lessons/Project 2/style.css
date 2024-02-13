@@ -1,3 +1,8 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body { 
     background-color: #1B1617;
 }
@@ -16,10 +21,14 @@ p {
     color: #1A9782;
 }
 
-.especialidades {
+.texto-destaque {
     color: white;
     border: 1px solid #1A9782;   
     padding: 2px; 
+}
+
+.urgente {
+    color: red;
 }
 
 a {
