@@ -5,15 +5,16 @@
 
 body { 
     background-color: #1B1617;
+    height: 100vh;
 }
 
 h1 {
-    color: #AAAAAA;
+    color: #F6F6F6;
     font-weight: bold;
     /* Adicionar mais estilos conforme necessário */
 }
 p {
-    color: #AAAAAA;
+    color: #F6F6F6;
     /* Adicionar mais estilos conforme necessário */
 }
 
@@ -25,10 +26,6 @@ p {
     color: white;
     border: 1px solid #1A9782;   
     padding: 2px; 
-}
-
-.urgente {
-    color: red;
 }
 
 a {
