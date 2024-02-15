@@ -41,7 +41,8 @@ a {
     border: none;
     /* Adicionar mais estilos conforme necessário */
 }
-img {
+
+.imagem {
     width: 300px;
 }
 /* Adicionar mais estilos conforme necessário */
