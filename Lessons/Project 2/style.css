@@ -13,15 +13,17 @@ body {
 }
 
 .apresentacao {
-    margin: 10%;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    
+    margin: 10% 15%;
 }
 
 .apresentacao_conteudo {
-    width: 615px;    
+    width: 615px; 
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
 }
 
 .apresentacao_conteudo_titulo {
@@ -49,14 +51,28 @@ body {
     padding: 2px; 
 }
 
-a {
-    background-color: #1A9782;
-    color: #F6F6F6;
-    border: none;
-    /* Adicionar mais estilos conforme necessário */
-}
-
 .imagem {
     width: 300px;
 }
 /* Adicionar mais estilos conforme necessário */
+
+.apresentacao_links {
+    display: flex;
+    justify-content: space-between;       
+}
+
+.apresentacao_links_link {
+    background-color: #1A9782;
+    width: 280px;     
+    text-align: center;
+    border-radius: 16px;
+    font-size: 24px;    
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    transition: .3s all ease-in-out;
+    color: #1B1617;
+    padding: 21.5px 0;
+    text-decoration: none;
+    transition: .3s all ease-in-out;
+       
+}   
