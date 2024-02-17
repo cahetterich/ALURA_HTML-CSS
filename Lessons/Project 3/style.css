@@ -52,27 +52,38 @@ body {
 }
 
 .imagem {
-    width: 300px;
+    width: 320px;
 }
 /* Adicionar mais estilos conforme necessário */
 
 .apresentacao_links {
     display: flex;
-    justify-content: space-between;       
+    flex-direction: column;
+    justify-content: space-between;     
+    align-items: center;  
+    gap: 35px;
+}
+
+.apresentacao_links_subtitulo { 
+    font-family: "Krona One", sans-serif;
+    font-weight: 400;
+    font-size: 24px;        
 }
 
 .apresentacao_links_link {
-    background-color: #1A9782;
-    width: 280px;     
+    /* background-color: #1A9782; */ 
+    border: 2px solid #1A9782;
+    width: 378px;     
     text-align: center;
-    border-radius: 16px;
+    border-radius: 8px;
     font-size: 24px;    
     font-family: "Montserrat", sans-serif;
     font-weight: 600;
     transition: .3s all ease-in-out;
-    color: #1B1617;
+    color: #F6F6F6;
     padding: 21.5px 0;
     text-decoration: none;
     transition: .3s all ease-in-out;
        
 }   
+
