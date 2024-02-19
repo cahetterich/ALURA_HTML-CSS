@@ -85,7 +85,10 @@ body {
     color: #F6F6F6;
     padding: 21.5px 0;
     text-decoration: none;
-    transition: .3s all ease-in-out;
-       
+    transition: .3s all ease-in-out;     
 }   
 
+.apresentacao_links_link:hover {
+    background-color: #272727;
+    color: #f6f6f6c0;
+}
