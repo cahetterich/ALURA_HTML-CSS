@@ -42,12 +42,12 @@ body {
 }
 
 .titulo-destaque {
-    color: #1A9782;
+    color: #22D4FD;
 }
 
 .texto-destaque {
     color: white;
-    border: 1px solid #1A9782;   
+    border: 1px solid #22D4FD;   
     padding: 2px; 
 }
 
@@ -71,8 +71,10 @@ body {
 }
 
 .apresentacao_links_link {
-    /* background-color: #1A9782; */ 
-    border: 2px solid #1A9782;
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    border: 2px solid #22D4FD;
     width: 378px;     
     text-align: center;
     border-radius: 8px;
