@@ -4,7 +4,7 @@
     --cor-primaria: #1B1617;
     --cor-secundaria: #F6F6F6;
     --cor-tercearia: #22D4FD;
-    --cor-houver: #727171c4;
+    --cor-hover: #727171c4;
 }
 
 * {
@@ -117,7 +117,7 @@ body {
 }   
 
 .apresentacao_links_link:hover {
-    background-color: var(--cor-houver);
+    background-color: var(--cor-hover);
     color: var(--cor-tercearia);
 }
 
