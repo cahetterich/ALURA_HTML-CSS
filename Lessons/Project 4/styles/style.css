@@ -35,7 +35,7 @@ body {
 
 .cabecalho_menu_link {
     font-family: var(--fonte-secundaria);
-    font-size: 24px;
+    font-size: 1.5rem;
     font-weight: 600;
     color: var(--cor-tercearia);
     text-decoration: none;
@@ -50,24 +50,25 @@ body {
     align-items: center;
     justify-content: space-between;
     padding: 8% 15%;
+    gap: 82px;
 }
 
 .apresentacao_conteudo {
-    width: 615px; 
+    width: 50%; 
     display: flex;
     flex-direction: column;
     gap: 30px;
 }
 
 .apresentacao_conteudo_titulo {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-family: var(--fonte-primaria);
     color: var(--cor-secundaria);
     font-weight: bold;    
 }
 
 .apresentacao_conteudo_texto {
-    font-size: 24px;
+    font-size: 1.5rem;
     font-family: var(--fonte-secundaria);
     color: var(--cor-secundaria);    
 }
@@ -82,10 +83,6 @@ body {
     padding: 2px; 
 }
 
-.imagem {
-    width: 320px;
-}
-/* Adicionar mais estilos conforme necessário */
 
 .apresentacao_links {
     display: flex;
@@ -98,18 +95,18 @@ body {
 .apresentacao_links_subtitulo { 
     font-family: var(--fonte-primaria);
     font-weight: 400;
-    font-size: 24px;        
+    font-size: 1.5rem;        
 }
 
-.apresentacao_links_link {
+.apresentacao_links_navegacao {
     display: flex;
     justify-content: center;
     gap: 16px;
     border: 2px solid var(--cor-tercearia);
-    width: 378px;     
+    width: 50%;     
     text-align: center;
     border-radius: 8px;
-    font-size: 24px;    
+    font-size: 1.5rem;    
     font-family: var(--fonte-secundaria);
     font-weight: 600;
     transition: .3s all ease-in-out;
@@ -124,6 +121,10 @@ body {
     color: var(--cor-tercearia);
 }
 
+.apresentação_imagem {
+    width: 50%;
+}
+
 .rodape { 
     background-color: var(--cor-tercearia) ;
     color: var(--cor-primaria);
@@ -131,7 +132,7 @@ body {
     text-align: center;
     font-family: var(--fonte-secundaria);
     font-weight: 400;
-    font-size: 15px;
+    font-size: 1.5rem;
 }
 
 /* Style - CV */
@@ -141,3 +142,11 @@ body {
     color: var(--cor-tercearia);
 }
 
+@media (max-width: 1200px) {
+
+    .apresentacao {
+        flex-direction: column-reverse;        
+    }
+
+
+}
