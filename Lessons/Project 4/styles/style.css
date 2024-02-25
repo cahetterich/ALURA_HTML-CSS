@@ -4,7 +4,7 @@
     --cor-primaria: #1B1617;
     --cor-secundaria: #F6F6F6;
     --cor-tercearia: #22D4FD;
-    --cor-hover: #727171c4;
+    --cor-hover: #72717149;
 
     --fonte-primaria: 'Krona One', sans-serif;
     --fonte-secundaria : 'Montserrat', sans-serif;
@@ -116,7 +116,7 @@ body {
     transition: .3s all ease-in-out;     
 }   
 
-.apresentacao_links_link:hover {
+.apresentacao_links_navegacao:hover {
     background-color: var(--cor-hover);
     color: var(--cor-tercearia);
 }
@@ -144,9 +144,16 @@ body {
 
 @media (max-width: 1200px) {
 
+    .cabecalho {
+        padding: 10%;
+    }
+
+    .cabecalho_menu {
+        justify-content: center;
+    }
+
     .apresentacao {
         flex-direction: column-reverse;        
     }
-
 
 }
