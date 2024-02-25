@@ -23,13 +23,11 @@ body {
 }
 
 .cabecalho {
-    padding: 2% 0% 0% 10%;
+    padding: 2% 0% 0% 15%;
 }
 
 .cabecalho_menu {
-    display: flex;
-    justify-content: flex-start;
-    padding-left: 130px;
+    display: flex;   
     gap: 80px;
 }
 
@@ -46,11 +44,11 @@ body {
 }
     
 .apresentacao {
+    padding: 5% 15%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    padding: 8% 15%;
-    gap: 82px;
+    justify-content: space-between;    
+    gap: 82px; /* ************************************   */
 }
 
 .apresentacao_conteudo {
@@ -153,7 +151,11 @@ body {
     }
 
     .apresentacao {
-        flex-direction: column-reverse;        
+        flex-direction: column-reverse;  
+        padding: 5%;      
     }
 
+    .apresentacao_conteudo {
+        width: auto;
+    }
 }
