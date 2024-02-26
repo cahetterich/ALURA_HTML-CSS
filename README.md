@@ -1,5 +1,8 @@
 Códigos da formação *"A partir do zero: HTML e CSS para projetos web"*,  desenvolvida pela ALURA na escola de Front-end. 
 
+![image](https://github.com/cahetterich/ALURA_HTML-CSS/assets/148469247/330fcb69-1ca5-4076-93d6-e7aa65a5e3f5)
+
+
 | Curso | Certificado |
 | ------ | ------ |
 | HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags | https://cursos.alura.com.br/certificate/c6392e37-4d6b-4d93-8dc9-7ea802ee1ee0 |
