@@ -1,7 +1,8 @@
 Códigos da formação *"A partir do zero: HTML e CSS para projetos web"*,  desenvolvido pela ALURA na escola de Front-end. 
 
+<h2> Project 1</h2>
 ![image](https://github.com/cahetterich/ALURA_HTML-CSS/assets/148469247/330fcb69-1ca5-4076-93d6-e7aa65a5e3f5)
-
+<br>
 
 | Curso | Certificado |
 | ------ | ------ |
@@ -9,7 +10,8 @@ Códigos da formação *"A partir do zero: HTML e CSS para projetos web"*,  dese
 | HTML e CSS: cabeçalho, footer e variáveis CSS | https://cursos.alura.com.br/certificate/50b98745-5335-426a-84e3-88d7d75df84c |
 | HTML e CSS: Classes, posicionamento e Flexbox | https://cursos.alura.com.br/certificate/193e7537-e16a-4bc9-8b0f-7dbe36a01c2c |
 | HTML e CSS: trabalhando com responsividade e publicação de projetos | https://cursos.alura.com.br/certificate/16ea7ca0-c60b-43f4-90ec-1f03e001c878 |
-| HTML e CSS: praticando HTML/CSS| Em formação |
+| HTML e CSS: praticando HTML/CSS | https://cursos.alura.com.br/certificate/3e8c0ec2-bf62-4a6a-9fe9-4e53a844d5bf
+| HTML e CSS: Responsividade com mobile-first| Em formação |
 
 ## Ferramentas utilizadas:
 
