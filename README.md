@@ -39,10 +39,12 @@ Códigos da formação *"A partir do zero: HTML e CSS para projetos web"*,  dese
 
 * Flex-box
 
+* VS Code
+
 ## Feito por:
 
 ### Carla Hetterich Worlitz
 
 ### Linkedin: https://www.linkedin.com/in/carla-hetterich/
 
-Aqui tem o link da formação [A partir do zero: HTML e CSS para projetos web](https://cursos.alura.com.br/formacao-html-css) desenvolvido pela ALURA.
+Aqui tem o link da formação [A partir do zero: HTML e CSS para projetos web](https://cursos.alura.com.br/formacao-html-css) desenvolvida pela ALURA.
