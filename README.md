@@ -1,8 +1,25 @@
 Códigos da formação *"A partir do zero: HTML e CSS para projetos web"*,  desenvolvido pela ALURA na escola de Front-end. 
 
-<h2> Project 1</h2>
+<h2> Projetos desenvolvidos: </h2>
+
+<h3>Landing Page</h3>
 
 ![Imagem do primeiro projeto desenvolvido](https://github.com/cahetterich/ALURA_HTML-CSS/assets/148469247/330fcb69-1ca5-4076-93d6-e7aa65a5e3f5)
+
+<h3>Portfolio</h3>
+
+![Imagem da página inicial do projeto](https://github.com/cahetterich/ALURA_HTML-CSS/assets/148469247/55936404-ed9d-4f90-aa80-744ffbd105e3)
+
+![Imagem da página secundária do projeto](https://github.com/cahetterich/ALURA_HTML-CSS/assets/148469247/d9507ee0-c2ac-4a61-bbf2-809821b15e73)
+
+<h3>Alura Plus - Layout</h3>
+
+![Imagem do layout do site Alura Plus](https://github.com/cahetterich/ALURA_HTML-CSS/assets/148469247/bf105eb5-19db-46c7-bcea-ba34a31f688e)
+
+<h3>AluraBooks</h3>
+
+![Página inicial - MENU](https://github.com/cahetterich/ALURA_HTML-CSS/assets/148469247/dd8b5d84-a372-4230-8ce0-c46ec640273e)
+
 
 
 | Curso | Certificado |
