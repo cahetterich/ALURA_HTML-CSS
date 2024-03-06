@@ -58,8 +58,14 @@
 
         <div class="container">
             <a href="#"><img class="container__imagem container__imagem-transparente" src="./assets/img/Favoritos.svg" alt="Meus Favoritos"></a>
-            <a href="#"><img class="container__imagem" src="./assets/img/Compras.svg" alt="Carrinho de Compras"></a>
-            <a href="#"><img class="container__imagem" src="./assets/img/Usuario.svg" alt="Meu Perfil"></a>        
+            <a href="#" class="container__link">
+                <img class="container__imagem" src="./assets/img/Compras.svg" alt="Carrinho de Compras">
+                <p class="container__texto">Minha sacola</p>
+            </a>
+            <a href="#" class="container__link">
+                <img class="container__imagem" src="./assets/img/Usuario.svg" alt="Meu Perfil">
+                <p class="container__texto">Meu perfil</p>
+            </a>        
         </div>
     </header>
     
@@ -73,6 +79,8 @@
         <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
 
     <!-- Slider main container -->
+    <div class="carrossel__container">
+   
     <div class="swiper">
 
     <!-- If we need pagination -->
@@ -113,12 +121,14 @@
             <a href="#" class="botoes__ancora">Saiba mais</a>
         </div>
     </div>
+    </div>
     </section>
 
     <section class="carrossel">
         <h2 class="carrossel__titulo">MAIS VENDIDOS</h2>
 
         <!-- Slider main container -->
+        <div class="carrossel__container">
         <div class="swiper">
 
     <!-- If we need pagination -->
@@ -160,19 +170,20 @@
             <a href="#" class="botoes__ancora">Saiba mais</a>
         </div>
     </div>
+    </div>
     </section>
 
     <section class="topicos">
         <h2 class="topicos__titulo">TÓPICOS VISITADOS RECENTEMENTE</h2>
         <ul class="topicos__lista">
             <li class="topicos__item"><a href="#" class="topicos__link">Android</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">OO</a></li>
             <li class="topicos__item"><a href="#" class="topicos__link">Marketing Digital</a></li>
             <li class="topicos__item"><a href="#" class="topicos__link">Agile</a></li>
             <li class="topicos__item"><a href="#" class="topicos__link">Startups</a></li>
             <li class="topicos__item"><a href="#" class="topicos__link">HTML & CSS</a></li>
-            <li class="topicos__item"><a href="#" class="topicos__link">Python</a></li>
-            <li class="topicos__item"><a href="#" class="topicos__link">OO</a></li>
             <li class="topicos__item"><a href="#" class="topicos__link">Java</a></li>
+            <li class="topicos__item"><a href="#" class="topicos__link">Python</a></li>
         </ul>
     </section>
 
