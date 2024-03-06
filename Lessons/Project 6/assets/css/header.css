@@ -2,7 +2,7 @@
     background-color: var(--branco);
     display: flex;
     justify-content: space-between;
-    position: relative;
+    position: relative;    
     /* align-items: center; */
 }
 
@@ -15,7 +15,6 @@
     cursor: pointer;
     display: inline-block;
 }
-
 
 .container__botao:checked ~ .container__rotulo > .cabecalho__menu-hamburguer {
     background-image: url("../img/MenuAberto.svg");
@@ -57,8 +56,8 @@
 
 .lista-menu__link { 
     background: var(--azul-degrade);
-    --webikt-background-clip: text;
-    --webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     background-clip: text;
 }
 
@@ -68,7 +67,6 @@
 .container__texto {
     display: none;
 }
-
 
 
 @media screen and (min-width: 1024px) {
@@ -93,9 +91,8 @@
         
     }
 
-    .opcoes__item {
-        margin-top: 1rem;
-        padding: 1em 1em;
+    .opcoes__item {        
+        padding: 2em 1em;
         color: var(--preto);
         
     }
@@ -112,13 +109,28 @@
     .opcoes__botao:checked ~ .lista-menu {
         display: block;
         width: auto;
-        /* box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.40); */
+        box-shadow: 15px 15px 10px rgba(0, 0, 0, 0.40); 
     }
 
     .opcoes__botao {
         display: none;
     }
 
+    .opcoes__botao:checked ~ .opcoes__rotulo > .opcoes__item {
+        background: var(--azul-degrade);
+        color: var(--branco);
+    }
+
+    .lista-menu__item:hover {
+        background: var(--azul-degrade);
+        color: var(--branco);         
+    }
+
+    .lista-menu__item:hover> .lista-menu__link {
+        -webkit-text-fill-color: var(--branco);
+        text-decoration: none;
+    }
+   
     /* .opcoes__item:hover {
         background: var(--azul-degrade);
         color: var(--branco);       
@@ -128,11 +140,7 @@
         color: var(--branco);
     } */
 
-    /* .lista-menu__item:hover {
-        background: var(--azul-degrade);
-        color: var(--branco);        
-    }
-     */
+
 }
 
 @media screen and (min-width: 1728px) {

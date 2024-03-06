@@ -71,7 +71,49 @@
     color: var(--branco);
     font-weight: 700;
     text-decoration: none; 
-}	
+}
+    /*CORAÇÃO*/
+
+    #coracao {
+        display: none;
+      }
+      
+      #coracao:checked + .icone > svg {
+        animation: cor;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes cor {
+        0% {
+          fill: transparent;
+        }
+        100% {
+          fill: #D73B3B;
+        }
+      }
+
+      #coracao2 {
+        display: none;
+      }
+      
+      #coracao2:checked + .icone > svg {
+        animation: cor;
+        animation-duration: 0.5s;
+        animation-fill-mode: forwards;
+      }
+      
+      @keyframes cor {
+        0% {
+          fill: transparent;
+        }
+        100% {
+          fill: #D73B3B;
+        }
+      }
+
+
+
 
 @media screen and (min-width: 1024px){
 
@@ -97,6 +139,13 @@
         width: 40%;
         margin: 3em auto;
     }
+
+    .botoes__ancora:hover {
+    color: var(--laranja);
+    border: 2px solid var(--laranja);
+    background-color: var(--branco);
+    transition: 0.5s; 
+}
 
 }
 
