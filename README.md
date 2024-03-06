@@ -1,6 +1,6 @@
 Códigos da formação *"A partir do zero: HTML e CSS para projetos web"*,  desenvolvido pela ALURA na escola de Front-end. 
 <br>
-[Certificado do Curso](https://cursos.alura.com.br/degree/certificate/f4af562a-1833-4576-8528-d0e967be4157).
+[Certificado do Curso](https://cursos.alura.com.br/degree/certificate/f4af562a-1833-4576-8528-d0e967be4157)
 
 <h2> Projetos desenvolvidos: </h2>
 
@@ -28,8 +28,8 @@ Códigos da formação *"A partir do zero: HTML e CSS para projetos web"*,  dese
 | ------ | ------ |
 | HTML e CSS: ambientes de desenvolvimento, estrutura de arquivos e tags | [Certificado](https://cursos.alura.com.br/certificate/c6392e37-4d6b-4d93-8dc9-7ea802ee1ee0) |
 | HTML e CSS: cabeçalho, footer e variáveis CSS | [Certificado](https://cursos.alura.com.br/certificate/50b98745-5335-426a-84e3-88d7d75df84c) |
-| HTML e CSS: Classes, posicionamento e Flexbox | [Certificado](https://cursos.alura.com.br/certificate/193e7537-e16a-4bc9-8b0f-7dbe36a01c2c). |
-| HTML e CSS: trabalhando com responsividade e publicação de projetos | [Certificado](https://cursos.alura.com.br/certificate/16ea7ca0-c60b-43f4-90ec-1f03e001c878). |
+| HTML e CSS: Classes, posicionamento e Flexbox | [Certificado](https://cursos.alura.com.br/certificate/193e7537-e16a-4bc9-8b0f-7dbe36a01c2c) |
+| HTML e CSS: trabalhando com responsividade e publicação de projetos | [Certificado](https://cursos.alura.com.br/certificate/16ea7ca0-c60b-43f4-90ec-1f03e001c878) |
 | HTML e CSS: praticando HTML/CSS | [Certificado](https://cursos.alura.com.br/certificate/3e8c0ec2-bf62-4a6a-9fe9-4e53a844d5bf).
 | HTML e CSS: Responsividade com mobile-first|[Certificado](https://cursos.alura.com.br/course/html-css-responsividade-mobile-first) |
 
